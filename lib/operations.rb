@@ -8,7 +8,7 @@ end
 
 
 
-def not_safe?(speed = 60)
+def not_safe?(speed = 50)
   speed < 40 ? true : false
 end
 	
